@@ -1,0 +1,24 @@
+{
+  "name": "ts-simple-cookie",
+  "version": "1.1.4",
+  "keywords": [],
+  "author": "Marc Rusch",
+  "license": "MIT",
+  "main": "lib/Cookie.js",
+  "types": "lib/Cookie.d.ts",
+  "description": "Simple TS Cookies",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/preset-typescript": "^7.10.4",
+    "@types/react": "^16.9.41",
+    "typescript": "^4.0.0-dev.20200630"
+  },
+  "scripts": {
+    "build": "npx babel src --out-dir lib --extensions \".ts,.tsx\"",
+    "export-types": "tsc --emitDeclarationOnly",
+    "check-types": "tsc"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "baseUrl": "src",
+    "sourceMap": true,
+    "lib": ["dom", "dom.iterable", "ES5"],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "downlevelIteration": true,
+    "jsx": "preserve",
+    "declaration": true,
+    "outDir": "lib"
+  },
+  "include": ["src"]
+}
